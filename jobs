@@ -18,7 +18,7 @@ job('maven-dsl') {
         shell('''
 		    echo ***********Building JAR*******
 			java -jar /var/jenkins_home/workspace/maven-job/target/my-app-1.0-SNAPSHOT.jar
-                    echo "with webhook done, edited x2"
+                    echo "with webhook done, edited "
 		''')
 	}
 	publishers {
